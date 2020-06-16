@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.15.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:uglify-js:20151024':
+    - cordova > cordova-lib > cordova-js > browserify > umd > ruglify > uglify-js:
+        patched: '2020-06-16T23:15:04.445Z'
+    - cordova > cordova-lib > cordova-js > browserify > browser-pack > umd > ruglify > uglify-js:
+        patched: '2020-06-16T23:15:04.445Z'
